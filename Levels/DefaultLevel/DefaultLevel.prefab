@@ -73,7 +73,8 @@
             "Components": {
                 "Component_[13620450453324765907]": {
                     "$type": "EditorLockComponent",
-                    "Id": 13620450453324765907
+                    "Id": 13620450453324765907,
+                    "Locked": true
                 },
                 "Component_[2134313378593666258]": {
                     "$type": "EditorInspectorComponent",
@@ -222,7 +223,8 @@
                 },
                 "Component_[7090012899106946164]": {
                     "$type": "EditorLockComponent",
-                    "Id": 7090012899106946164
+                    "Id": 7090012899106946164,
+                    "Locked": true
                 },
                 "Component_[9410832619875640998]": {
                     "$type": "EditorVisibilityComponent",
@@ -353,7 +355,8 @@
                 },
                 "Component_[9189909764215270515]": {
                     "$type": "EditorLockComponent",
-                    "Id": 9189909764215270515
+                    "Id": 9189909764215270515,
+                    "Locked": true
                 }
             }
         },
@@ -377,7 +380,8 @@
                 },
                 "Component_[14988041764659020032]": {
                     "$type": "EditorLockComponent",
-                    "Id": 14988041764659020032
+                    "Id": 14988041764659020032,
+                    "Locked": true
                 },
                 "Component_[15900837685796817138]": {
                     "$type": "EditorVisibilityComponent",
@@ -432,7 +436,8 @@
                 },
                 "Component_[1428633914413949476]": {
                     "$type": "EditorLockComponent",
-                    "Id": 1428633914413949476
+                    "Id": 1428633914413949476,
+                    "Locked": true
                 },
                 "Component_[14936200426671614999]": {
                     "$type": "AZ::Render::EditorImageBasedLightComponent",
@@ -2372,32 +2377,22 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 2.401625871658325
+                    "value": 2.5
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 7.050856113433838
+                    "value": 7.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
-                    "value": 0.9958102107048035
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/0",
-                    "value": 3.3350582295810227e-9
-                },
-                {
-                    "op": "replace",
-                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/1",
-                    "value": 0.1000000461935997
+                    "value": 1.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
-                    "value": 87.76148223876953
+                    "value": 90.0
                 }
             ]
         },

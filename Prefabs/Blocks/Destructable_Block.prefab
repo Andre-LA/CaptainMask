@@ -130,7 +130,7 @@
                             ],
                             "TargetEntity": "",
                             "Centered": false,
-                            "Size": 1.0
+                            "Size": 0.5
                         },
                         "Settings": {
                             "VisibleInGame": true,
@@ -145,7 +145,7 @@
                         "$type": "EditorTagComponent",
                         "Id": 9541421553929559850,
                         "Tags": [
-                            "Destruct"
+                            "Destructable"
                         ]
                     }
                 }

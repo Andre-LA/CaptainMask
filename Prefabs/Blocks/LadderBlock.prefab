@@ -110,6 +110,36 @@
                 },
                 {
                     "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorDebugDrawTextComponent",
+                    "value": {
+                        "$type": "EditorDebugDrawTextComponent",
+                        "Id": 8090059670433180460,
+                        "Element": {
+                            "Text": "Ladder",
+                            "Color": [
+                                0.8979629278182983,
+                                0.47092393040657043,
+                                0.47092393040657043,
+                                1.0
+                            ],
+                            "DrawMode": 1,
+                            "WorldLocation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "TargetEntity": "",
+                            "Centered": false,
+                            "Size": 0.6000000238418579
+                        },
+                        "Settings": {
+                            "VisibleInGame": true,
+                            "VisibleInEditor": true
+                        }
+                    }
+                },
+                {
+                    "op": "add",
                     "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorTagComponent",
                     "value": {
                         "$type": "EditorTagComponent",
@@ -118,6 +148,21 @@
                             "Ladder"
                         ]
                     }
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Material/Tint/0",
+                    "value": 0.6734721660614014
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Material/Tint/1",
+                    "value": 0.08081178367137909
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Material/Tint/2",
+                    "value": 0.08081178367137909
                 }
             ]
         }

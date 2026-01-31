@@ -259,8 +259,7 @@
                     },
                     "ShapeConfig": {
                         "Capsule": {
-                            "Height": 0.5,
-                            "Radius": 0.20000000298023224
+                            "Radius": 0.4000000059604645
                         }
                     }
                 },
@@ -556,7 +555,7 @@
                     "Id": 414569336885085196,
                     "Parent Entity": "Entity_[215664691545269]",
                     "Transform Data": {
-                        "UniformScale": 0.4000000059604645
+                        "UniformScale": 0.699999988079071
                     }
                 }
             }

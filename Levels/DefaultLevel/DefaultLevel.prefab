@@ -2377,12 +2377,12 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
-                    "value": 2.5
+                    "value": 3.0
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
-                    "value": 7.0
+                    "value": 5.999999046325684
                 },
                 {
                     "op": "replace",
@@ -2392,7 +2392,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Rotate/2",
-                    "value": 90.0
+                    "value": 89.99994659423828
                 }
             ]
         },

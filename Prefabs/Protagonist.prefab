@@ -50,6 +50,154 @@
         }
     },
     "Entities": {
+        "Entity_[1164548591640]": {
+            "Id": "Entity_[1164548591640]",
+            "Name": "Masks",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12457559015758257528
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11038979760405993126
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15467630670649247557,
+                    "Child Entity Order": [
+                        "Entity_[1744369176600]",
+                        "Entity_[1980592377880]"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10728312793593665341
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2493398706368687500
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15980003909870161374
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1759403816062260994
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16693648610298152827
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11264842533325297720,
+                    "Parent Entity": "Entity_[215664691545269]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.1920928955078125e-7,
+                            0.49066293239593506,
+                            0.9550328850746155
+                        ],
+                        "UniformScale": 0.4000000059604645
+                    }
+                }
+            }
+        },
+        "Entity_[1744369176600]": {
+            "Id": "Entity_[1744369176600]",
+            "Name": "Red Mask",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10808344631385609094
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4997169136183171280
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1669096120153727133,
+                    "Child Entity Order": [
+                        "Instance_[1589750353944]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8899461744932286928
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10958889697498601392
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7891215797513382761
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12038739929071150599
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14900882860360944411
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15931763838653441258,
+                    "Parent Entity": "Entity_[1164548591640]"
+                }
+            }
+        },
+        "Entity_[1980592377880]": {
+            "Id": "Entity_[1980592377880]",
+            "Name": "Blue Mask",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10808344631385609094
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4997169136183171280
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1669096120153727133,
+                    "Child Entity Order": [
+                        "Instance_[1589750353944]/ContainerEntity",
+                        "Instance_[1984887345176]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8899461744932286928
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10958889697498601392
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7891215797513382761
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12038739929071150599
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14900882860360944411
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15931763838653441258,
+                    "Parent Entity": "Entity_[1164548591640]"
+                }
+            }
+        },
         "Entity_[215664691545269]": {
             "Id": "Entity_[215664691545269]",
             "Name": "Protagonist",
@@ -60,7 +208,10 @@
                 },
                 "Component_[12037033284781049225]": {
                     "$type": "EditorEntitySortComponent",
-                    "Id": 12037033284781049225
+                    "Id": 12037033284781049225,
+                    "Child Entity Order": [
+                        "Entity_[1164548591640]"
+                    ]
                 },
                 "Component_[13759153306105970079]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -178,6 +329,40 @@
                                     },
                                     "VariableName": "RotationDuration",
                                     "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "",
+                                        "label": "Red Mask"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{EF3FF3D9-E8A1-4A56-9DCC-19587AD53611}"
+                                    },
+                                    "VariableName": "Red Mask",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "",
+                                        "label": "Blue Mask"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{F3CB8137-858D-40B3-99EE-CE0366331B2E}"
+                                    },
+                                    "VariableName": "Blue Mask",
+                                    "InitialValueSource": 1
                                 }
                             ],
                             "overrides": [
@@ -220,10 +405,57 @@
                                     },
                                     "VariableName": "RotationDuration",
                                     "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "Instance_[1589750353944]/Entity_[1598340288536]",
+                                        "label": "Red Mask"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{EF3FF3D9-E8A1-4A56-9DCC-19587AD53611}"
+                                    },
+                                    "VariableName": "Red Mask",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "Instance_[1984887345176]/Entity_[1598340288536]",
+                                        "label": "Blue Mask"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{F3CB8137-858D-40B3-99EE-CE0366331B2E}"
+                                    },
+                                    "VariableName": "Blue Mask",
+                                    "InitialValueSource": 1
                                 }
                             ]
                         }
                     }
+                },
+                "EditorTagComponent": {
+                    "$type": "EditorTagComponent",
+                    "Id": 3897147017997467985,
+                    "Tags": [
+                        "Protagonist"
+                    ]
                 },
                 "InputConfigurationComponent": {
                     "$type": "GenericComponentWrapper",
@@ -239,6 +471,92 @@
                     }
                 }
             }
+        }
+    },
+    "Instances": {
+        "Instance_[1589750353944]": {
+            "Source": "Prefabs/Blocks/MaskBase.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1744369176600]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -2.384185791015625e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.5
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[1598340288536]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
+                    "value": {
+                        "Key": {
+                            "lodIndex": 18446744073709551615,
+                            "materialSlotStableId": 4294967295
+                        },
+                        "Value": {
+                            "MaterialAsset": {
+                                "assetId": {
+                                    "guid": "{9C47066E-BD8F-5C1B-B935-933296BBE312}",
+                                    "subId": 0
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "materials/presets/macbeth/15_red.azmaterial"
+                            },
+                            "PropertyOverrides": [],
+                            "ModelUvOverrides": []
+                        }
+                    }
+                }
+            ]
+        },
+        "Instance_[1984887345176]": {
+            "Source": "Prefabs/Blocks/MaskBase.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1980592377880]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": -2.384185791015625e-7
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/UniformScale",
+                    "value": 2.5
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[1598340288536]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
+                    "value": {
+                        "Key": {
+                            "lodIndex": 18446744073709551615,
+                            "materialSlotStableId": 4294967295
+                        },
+                        "Value": {
+                            "MaterialAsset": {
+                                "assetId": {
+                                    "guid": "{B8972ADB-DBA9-5807-9742-2B14453FDD96}",
+                                    "subId": 0
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": "materials/presets/macbeth/13_blue.azmaterial"
+                            },
+                            "PropertyOverrides": [],
+                            "ModelUvOverrides": []
+                        }
+                    }
+                }
+            ]
         }
     }
 }

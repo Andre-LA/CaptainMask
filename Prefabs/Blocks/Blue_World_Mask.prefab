@@ -1,0 +1,203 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Blue_World_Mask",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11052491003293357224
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18287258561502079742
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14617488931359646136,
+                "Child Entity Order": [
+                    "Entity_[363101442625560]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9238777222838615831
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 480076293083635150
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4164903498911048335,
+                "IsEditorOnly": true
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6925284609309375361
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4188818231867779717
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2986668294373070708
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9885986918306802950,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[363101442625560]": {
+            "Id": "Entity_[363101442625560]",
+            "Name": "Blue World Mask",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4118067957566469043
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10451396810687306660
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5909877954979335661,
+                    "Child Entity Order": [
+                        "Instance_[363084262756376]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11076061600410205831
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2370148861478826223
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1908758570954002373,
+                    "IsEditorOnly": true
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16313384551868775439
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14155355279700999967
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8261772668278909859,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[363084262756376]": {
+            "Source": "Prefabs/Blocks/WorldMaskBase.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[363101442625560]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[359016928727064]/Components/EditorMaterialComponent/Controller/Configuration/materials/0",
+                    "value": {
+                        "Key": {
+                            "lodIndex": 18446744073709551615,
+                            "materialSlotStableId": 4294967295
+                        },
+                        "Value": {
+                            "MaterialAsset": {
+                                "assetId": {
+                                    "guid": "{B8972ADB-DBA9-5807-9742-2B14453FDD96}",
+                                    "subId": 0
+                                },
+                                "loadBehavior": "QueueLoad",
+                                "assetHint": ""
+                            },
+                            "PropertyOverrides": [],
+                            "ModelUvOverrides": []
+                        }
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[359012633759768]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/variables/0",
+                    "value": {
+                        "Datum": {
+                            "isOverloadedStorage": false,
+                            "scriptCanvasType": {
+                                "m_type": 5,
+                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                            },
+                            "isNullPointer": false,
+                            "$type": "AZStd::string",
+                            "value": "",
+                            "label": "MaskColor"
+                        },
+                        "InputControlVisibility": {
+                            "Value": 2755429085
+                        },
+                        "ExposureCategory": "",
+                        "SortPriority": -1,
+                        "ReplicaNetProps": {
+                            "m_isSynchronized": false
+                        },
+                        "VariableId": {
+                            "m_id": "{CC8FF238-33EB-47E7-8798-2E9B485DB263}"
+                        },
+                        "VariableName": "MaskColor",
+                        "Scope": 0,
+                        "InitialValueSource": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[359012633759768]/Components/EditorScriptCanvasComponent/configuration/propertyOverrides/overrides/0",
+                    "value": {
+                        "Datum": {
+                            "isOverloadedStorage": false,
+                            "scriptCanvasType": {
+                                "m_type": 5,
+                                "m_azType": "{00000000-0000-0000-0000-000000000000}"
+                            },
+                            "isNullPointer": false,
+                            "$type": "AZStd::string",
+                            "value": "Blue",
+                            "label": "MaskColor"
+                        },
+                        "InputControlVisibility": {
+                            "Value": 850104567
+                        },
+                        "ExposureCategory": "",
+                        "SortPriority": -1,
+                        "ReplicaNetProps": {
+                            "m_isSynchronized": false
+                        },
+                        "VariableId": {
+                            "m_id": "{CC8FF238-33EB-47E7-8798-2E9B485DB263}"
+                        },
+                        "VariableName": "MaskColor",
+                        "Scope": 0,
+                        "InitialValueSource": 1
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Entities/Entity_[359012633759768]/Components/EditorTagComponent/Tags/1",
+                    "value": "Blue"
+                }
+            ]
+        }
+    }
+}

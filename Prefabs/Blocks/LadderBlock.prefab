@@ -110,33 +110,8 @@
                 },
                 {
                     "op": "add",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorDebugDrawTextComponent",
-                    "value": {
-                        "$type": "EditorDebugDrawTextComponent",
-                        "Id": 8090059670433180460,
-                        "Element": {
-                            "Text": "Ladder",
-                            "Color": [
-                                0.8979629278182983,
-                                0.47092393040657043,
-                                0.47092393040657043,
-                                1.0
-                            ],
-                            "DrawMode": 1,
-                            "WorldLocation": [
-                                0.0,
-                                0.0,
-                                0.0
-                            ],
-                            "TargetEntity": "",
-                            "Centered": false,
-                            "Size": 0.6000000238418579
-                        },
-                        "Settings": {
-                            "VisibleInGame": true,
-                            "VisibleInEditor": true
-                        }
-                    }
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorEntitySortComponent/Child Entity Order/1",
+                    "value": "Entity_[36433348076759]"
                 },
                 {
                     "op": "add",
@@ -150,19 +125,161 @@
                     }
                 },
                 {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Material/Tint/0",
-                    "value": 0.6734721660614014
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Material/Tint/1",
-                    "value": 0.08081178367137909
-                },
-                {
-                    "op": "replace",
-                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorWhiteBoxComponent/RenderData/Material/Tint/2",
-                    "value": 0.08081178367137909
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[36433348076759]",
+                    "value": {
+                        "Id": "Entity_[36433348076759]",
+                        "Name": "LadderDir",
+                        "Components": {
+                            "AZ::Render::EditorMeshComponent": {
+                                "$type": "AZ::Render::EditorMeshComponent",
+                                "Id": 14187694676684974461,
+                                "Controller": {
+                                    "Configuration": {
+                                        "ModelAsset": {
+                                            "assetId": {
+                                                "guid": "{E588282C-7C4B-51E6-84AB-E75F9FEC2D0A}",
+                                                "subId": 269946244
+                                            },
+                                            "loadBehavior": "QueueLoad",
+                                            "assetHint": "assets/models/blocks/standardblock.fbx.azmodel"
+                                        },
+                                        "SortKey": 0,
+                                        "ExcludeFromReflectionCubeMaps": false,
+                                        "UseForwardPassIBLSpecular": false,
+                                        "IsRayTracingEnabled": true,
+                                        "IsAlwaysDynamic": false,
+                                        "SupportRayIntersection": false,
+                                        "LodType": 0,
+                                        "LodOverride": 0,
+                                        "MinimumScreenCoverage": 0.0009259259095415473,
+                                        "QualityDecayRate": 0.5,
+                                        "LightingChannelConfig": {
+                                            "lightingChannelFlags": [
+                                                true,
+                                                true,
+                                                true,
+                                                true,
+                                                true
+                                            ]
+                                        }
+                                    }
+                                },
+                                "meshStats": {}
+                            },
+                            "EditorDisabledCompositionComponent": {
+                                "$type": "EditorDisabledCompositionComponent",
+                                "Id": 452565765531950897,
+                                "DisabledComponents": []
+                            },
+                            "EditorEntityIconComponent": {
+                                "$type": "EditorEntityIconComponent",
+                                "Id": 13449872105353530297,
+                                "EntityIconAssetId": {
+                                    "guid": "{00000000-0000-0000-0000-000000000000}",
+                                    "subId": 0
+                                }
+                            },
+                            "EditorEntitySortComponent": {
+                                "$type": "EditorEntitySortComponent",
+                                "Id": 9339081853016428323,
+                                "Child Entity Order": []
+                            },
+                            "EditorInspectorComponent": {
+                                "$type": "EditorInspectorComponent",
+                                "Id": 7840759636029701781,
+                                "ComponentOrderEntryArray": []
+                            },
+                            "EditorLockComponent": {
+                                "$type": "EditorLockComponent",
+                                "Id": 15097620496369633817,
+                                "Locked": false
+                            },
+                            "EditorMaterialComponent": {
+                                "$type": "EditorMaterialComponent",
+                                "Id": 10614575921885514931,
+                                "Controller": {
+                                    "Configuration": {
+                                        "materials": [
+                                            {
+                                                "Key": {
+                                                    "lodIndex": 18446744073709551615,
+                                                    "materialSlotStableId": 4294967295
+                                                },
+                                                "Value": {
+                                                    "MaterialAsset": {
+                                                        "assetId": {
+                                                            "guid": "{82346ED7-D369-5EF0-A7E0-70C1082EE073}",
+                                                            "subId": 0
+                                                        },
+                                                        "loadBehavior": "QueueLoad",
+                                                        "assetHint": ""
+                                                    },
+                                                    "PropertyOverrides": [],
+                                                    "ModelUvOverrides": []
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                "materialSlotsByLodEnabled": false
+                            },
+                            "EditorNonUniformScaleComponent": {
+                                "$type": "EditorNonUniformScaleComponent",
+                                "Id": 16069302386725161957,
+                                "NonUniformScale": [
+                                    0.5,
+                                    0.20000000298023224,
+                                    1.0
+                                ],
+                                "ComponentMode": {}
+                            },
+                            "EditorOnlyEntityComponent": {
+                                "$type": "EditorOnlyEntityComponent",
+                                "Id": 14754436561299012698,
+                                "IsEditorOnly": false
+                            },
+                            "EditorPendingCompositionComponent": {
+                                "$type": "EditorPendingCompositionComponent",
+                                "Id": 8271476051355877570,
+                                "PendingComponents": []
+                            },
+                            "EditorVisibilityComponent": {
+                                "$type": "EditorVisibilityComponent",
+                                "Id": 3427235855501790002,
+                                "VisibilityFlag": true
+                            },
+                            "TransformComponent": {
+                                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                                "Id": 8003837460654992491,
+                                "Parent Entity": "Entity_[217490052646069]",
+                                "Transform Data": {
+                                    "Translate": [
+                                        0.0,
+                                        0.4300000071525574,
+                                        0.0
+                                    ],
+                                    "Rotate": [
+                                        0.0,
+                                        0.0,
+                                        0.0
+                                    ],
+                                    "Scale": [
+                                        1.0,
+                                        1.0,
+                                        1.0
+                                    ],
+                                    "Locked": false,
+                                    "UniformScale": 1.0
+                                },
+                                "Parent Activation Transform Mode": 0,
+                                "IsStatic": false,
+                                "InterpolatePosition": 0,
+                                "InterpolateRotation": 0
+                            }
+                        },
+                        "IsRuntimeActive": true
+                    }
                 }
             ]
         }

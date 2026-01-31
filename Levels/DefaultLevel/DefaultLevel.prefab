@@ -29,7 +29,8 @@
                     "Instance_[3092328494101601]/ContainerEntity",
                     "Instance_[4121290989073505]/ContainerEntity",
                     "Instance_[4121342528681057]/ContainerEntity",
-                    "Instance_[4153142466540641]/ContainerEntity"
+                    "Instance_[4153142466540641]/ContainerEntity",
+                    "Instance_[36381808469207]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -801,13 +802,43 @@
                 }
             ]
         },
+        "Instance_[36381808469207]": {
+            "Source": "Prefabs/Blocks/LadderBlock.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[298001296487521]/Instances/Instance_[218091348067509]/Entities/Entity_[36433348076759]/Components/EditorMaterialComponent/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
+                    "value": "materials/presets/macbeth/14_green.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": 2.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 4.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/2",
+                    "value": 1.0
+                }
+            ]
+        },
         "Instance_[4121290989073505]": {
             "Source": "Prefabs/Blocks/SlopeBaseStatic.prefab",
             "Patches": [
                 {
                     "op": "replace",
                     "path": "/Instances/Instance_[1252169149088949]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415473
+                    "value": 0.0009259259095415472
                 },
                 {
                     "op": "replace",
@@ -837,7 +868,7 @@
                 {
                     "op": "replace",
                     "path": "/Instances/Instance_[1332768505365685]/Instances/Instance_[218091348067509]/Entities/Entity_[217494347613365]/Components/AZ::Render::EditorMeshComponent/Controller/Configuration/MinimumScreenCoverage",
-                    "value": 0.0009259259095415473
+                    "value": 0.0009259259095415472
                 },
                 {
                     "op": "replace",

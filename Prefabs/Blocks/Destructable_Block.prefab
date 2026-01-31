@@ -1,0 +1,144 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Destructable_Block",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4150442967602440635
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 9792504195845511428
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14390981989648376738,
+                "Child Entity Order": [
+                    "Entity_[1532908800135192]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 542538684245824261
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 9170180742207067501
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7556565100871905374,
+                "IsEditorOnly": true
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13346936704192829177
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2370424790836269417
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 6407750754876493366
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17432269080197624696,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1532908800135192]": {
+            "Id": "Entity_[1532908800135192]",
+            "Name": "Destructable Block",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15015205520236660533
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3893652341588007103
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17261337098844891637,
+                    "Child Entity Order": [
+                        "Instance_[1532883030331416]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11031894581534431415
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4886829065552651981
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9086448344823153978,
+                    "IsEditorOnly": true
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9147457422183592560
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14344272525556896433
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12237541821982124965,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[1532883030331416]": {
+            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1532908800135192]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorDebugDrawTextComponent",
+                    "value": {
+                        "$type": "EditorDebugDrawTextComponent",
+                        "Id": 11805771045345424736,
+                        "Element": {
+                            "Text": "DESTRUCT",
+                            "Color": [
+                                0.8367284536361694,
+                                0.26404210925102234,
+                                0.26404210925102234,
+                                1.0
+                            ],
+                            "DrawMode": 1,
+                            "WorldLocation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "TargetEntity": "",
+                            "Centered": false,
+                            "Size": 1.0
+                        },
+                        "Settings": {
+                            "VisibleInGame": true,
+                            "VisibleInEditor": true
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

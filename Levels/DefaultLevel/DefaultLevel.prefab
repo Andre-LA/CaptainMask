@@ -29,7 +29,8 @@
                     "Instance_[1255033892275381]/ContainerEntity",
                     "Instance_[1334078470390965]/ContainerEntity",
                     "Instance_[361473650020376]/ContainerEntity",
-                    "Instance_[363092852690968]/ContainerEntity"
+                    "Instance_[363092852690968]/ContainerEntity",
+                    "Instance_[1532900210200600]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -622,6 +623,26 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
                     "value": 1.0
+                }
+            ]
+        },
+        "Instance_[1532900210200600]": {
+            "Source": "Prefabs/Blocks/Destructable_Block.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/0",
+                    "value": -3.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Transform Data/Translate/1",
+                    "value": 2.0
                 }
             ]
         },

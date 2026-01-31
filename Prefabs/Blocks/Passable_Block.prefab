@@ -1,0 +1,181 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Passable_Block",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17242240699331157775
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4806351188665827229
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1368192459649318654,
+                "Child Entity Order": [
+                    "Entity_[3092337084036193]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12752238571923235065
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 12172286988770904999
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 11510654933698017321,
+                "IsEditorOnly": true
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12066100167066089854
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17009425172430673954
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5260479944699287744
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4407275244804251805,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3092337084036193]": {
+            "Id": "Entity_[3092337084036193]",
+            "Name": "Passable Block",
+            "Components": {
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12492942310117920272
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15221614397312322191
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13286696771224959085,
+                    "Child Entity Order": [
+                        "Instance_[3092311314232417]/ContainerEntity"
+                    ]
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3118317186541932200
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8847689308470836908
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2090440471949991908,
+                    "IsEditorOnly": true
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18128616159306912803
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10090278722557844948
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15189359299338555941,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[3092311314232417]": {
+            "Source": "Prefabs/Blocks/BlockStaticBase.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/TransformComponent/Parent Entity",
+                    "value": "../Entity_[3092337084036193]"
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorDebugDrawTextComponent",
+                    "value": {
+                        "$type": "EditorDebugDrawTextComponent",
+                        "Id": 13241805288005224447,
+                        "Element": {
+                            "Text": "Passable",
+                            "Color": [
+                                0.22923628985881805,
+                                0.2073395848274231,
+                                0.8639505505561829,
+                                1.0
+                            ],
+                            "DrawMode": 1,
+                            "WorldLocation": [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "TargetEntity": "",
+                            "Centered": false,
+                            "Size": 0.800000011920929
+                        },
+                        "Settings": {
+                            "VisibleInGame": true,
+                            "VisibleInEditor": true
+                        }
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorScriptCanvasComponent",
+                    "value": {
+                        "$type": "EditorScriptCanvasComponent",
+                        "Id": 4586515272245849778,
+                        "configuration": {
+                            "sourceHandle": {
+                                "id": "{39944C58-E85C-57AD-9CDF-EAB5C83EB684}",
+                                "path": "Assets/ScriptCanvas/PassableBlockCtrl.scriptcanvas"
+                            },
+                            "sourceName": "PassableBlockCtrl.scriptcanvas",
+                            "propertyOverrides": {
+                                "source": {
+                                    "id": "{39944C58-E85C-57AD-9CDF-EAB5C83EB684}",
+                                    "path": "Assets/ScriptCanvas/PassableBlockCtrl.scriptcanvas"
+                                },
+                                "variables": [],
+                                "entityId": [],
+                                "overrides": [],
+                                "overridesUnused": [],
+                                "dependencies": []
+                            }
+                        }
+                    }
+                },
+                {
+                    "op": "add",
+                    "path": "/Instances/Instance_[218091348067509]/Entities/Entity_[217490052646069]/Components/EditorTagComponent",
+                    "value": {
+                        "$type": "EditorTagComponent",
+                        "Id": 8496739069460676994,
+                        "Tags": [
+                            "Passable"
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

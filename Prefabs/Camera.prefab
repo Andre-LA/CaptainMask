@@ -387,6 +387,40 @@
                                         "isNullPointer": false,
                                         "$type": "double",
                                         "value": 0.0,
+                                        "label": "Max Pitch"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{669B5673-1272-4013-A069-8A54CF557482}"
+                                    },
+                                    "VariableName": "Max Pitch",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0,
+                                        "label": "Min Pitch"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{849AE9A4-DE44-4674-9BFD-5211822F7647}"
+                                    },
+                                    "VariableName": "Min Pitch",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0,
                                         "label": "Rotating Speed"
                                     },
                                     "VariableId": {
@@ -432,6 +466,46 @@
                                         "m_id": "{44625F1B-3090-40A7-B621-5E8184DC850E}"
                                     },
                                     "VariableName": "RotationAnchorX",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 6.0,
+                                        "label": "Max Pitch"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{669B5673-1272-4013-A069-8A54CF557482}"
+                                    },
+                                    "VariableName": "Max Pitch",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": -60.0,
+                                        "label": "Min Pitch"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{849AE9A4-DE44-4674-9BFD-5211822F7647}"
+                                    },
+                                    "VariableName": "Min Pitch",
                                     "InitialValueSource": 1
                                 },
                                 {
@@ -504,26 +578,6 @@
                                         },
                                         "isNullPointer": false,
                                         "$type": "double",
-                                        "value": 0.0,
-                                        "label": "Max Pitch"
-                                    },
-                                    "InputControlVisibility": {
-                                        "Value": 850104567
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{669B5673-1272-4013-A069-8A54CF557482}"
-                                    },
-                                    "VariableName": "Max Pitch",
-                                    "InitialValueSource": 1
-                                },
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 3
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "double",
                                         "value": 1.0,
                                         "label": "Min Distance"
                                     },
@@ -534,26 +588,6 @@
                                         "m_id": "{6C6719A1-BCDC-42F2-9955-467414AF67C7}"
                                     },
                                     "VariableName": "Min Distance",
-                                    "InitialValueSource": 1
-                                },
-                                {
-                                    "Datum": {
-                                        "isOverloadedStorage": false,
-                                        "scriptCanvasType": {
-                                            "m_type": 3
-                                        },
-                                        "isNullPointer": false,
-                                        "$type": "double",
-                                        "value": 0.0,
-                                        "label": "Min Pitch"
-                                    },
-                                    "InputControlVisibility": {
-                                        "Value": 850104567
-                                    },
-                                    "VariableId": {
-                                        "m_id": "{849AE9A4-DE44-4674-9BFD-5211822F7647}"
-                                    },
-                                    "VariableName": "Min Pitch",
                                     "InitialValueSource": 1
                                 },
                                 {
